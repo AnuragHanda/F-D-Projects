@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.head {
+    background-color: #3962b0;
+    width: 100%;
+    height: 100px;
+
+}
+
+.labels {
+    display: inline;
+    float: right;
+    margin-right: 190px;
+    margin-top: 35px;
+
+
+}
+
+.labeltext {
+    display: inline-block;
+    color: white;
+    
+
+}
+.details{
+    height:25px;
+    border-radius: 2px;
+    border:1px solid grey;
+    width:190px;
+    height: 30px;
+    margin-top:5px;
+    
+
+
+    
+}
+#but {
+    background-color: rgb(43, 43, 149);
+    color: white;
+    padding: 3px;
+    margin: 2px 2px;
+    width:3.5vw;
+    cursor: pointer;
+    border:0cm;
+
+}
+
+#fortext {
+    color:#ffffff82;
+    margin-left: 171px;
+}
+.select{
+   display: inline;
+   margin:0px;
+   padding:0px; 
+   width: 100px; 
+}
+#p1{
+    color:blue;
+    position:absolute;
+    margin-left:200px;
+    margin-top:-20px;
+    font-size: 10px;
+}
+
+.container{
+    width: 398px;
+    float:right;
+    /* margin-right:250px;
+    margin-top:10px;
+    margin-bottom: 10px; */
+    margin: 25px 206px 25px 0px;
+    height:500px;
+}
+/* .gen{
+    display: flex;
+    margin-left:0px;
+}
+.gen label{
+    margin-left: 130px;
+}
+#f{
+    margin-right:1px;
+}
+#m{
+    margin-right:1px;
+} */
+.container .name {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+/* .container .name input {
+    padding-left: 7px;
+    border-radius: 2px;
+    width: 48%;
+    display: inline-block;
+} */
+
+.container .name input:nth-child(2) {
+    margin-left: 10px;
+}
+.container input{
+    padding-left: 4px;
+    border-radius: 2px;
+    width: 99%;
+}
+
+span{
+    color:blue;
+}
+a{
+    text-decoration: none;
+}
+
+.container select {
+    height: 22px;
+    width: 62px;
+}
+#btn{
+    height:50px;
+    background-color: rgb(72, 168, 72);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:10px 15px 15px 15px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+#btn:hover{
+    background-color: rgb(110 187 110);
+    cursor: pointer;
+}
+.main{
+    background-color: #ebebff;
+}
+.gdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155px;
+}
+.gdiv input{
+    padding: 0px;
+    width: 15px;
+    margin-right: 3px;
+}
+#fmale{
+margin-right: 12px;
+}
+#d2{
+    margin-top: 20px;
+}
