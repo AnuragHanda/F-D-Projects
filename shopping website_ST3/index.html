@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <title>Shopping Website</title>
+</head>
+<body>
+    <div class="black-hide" id="bhide">
+
+    </div>
+    <div class="cart" id="cart">
+        <div id="cart-Items">
+
+        </div>
+        
+        <div id="total">
+            <strong>Subtotal:- <span id="sp-total">0$</span></strong><br><br>
+            <button class="purchase" id="cl-cart">CLEAR CART</button>
+            <button class="purchase" id="checkout">CHECKOUT</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="message" id="message">
+            <i class="fa-solid fa-circle-check"></i>
+            <span id="sp"><strong id="name-st"></strong> Added to cart successfully</span>
+        </div>
+        <div class="nav-bar">
+            <div>
+                <h3 style="cursor: pointer;" id="sh">D MART</h3>
+            </div>
+            <div class="search-bar">
+                <input placeholder="Search Items Here" id="search"/>
+            </div>
+            
+            <div class="l-side">
+             
+                <div id="p-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Cart</p>
+                </div>
+            </div>
+        </div>
+        <div class="search-box" id="search-box">
+          
+        </div>
+        <div class="shop-list" id="shop-list">
+            
+        </div>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./utils/db.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
